@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+:root {
+    --white: #FFFF;
+    --black: #0000;
+    --black1: #313335;
+    --gray1: #4D4D4D;
+    --gray2: #808080;
+    --gray3: #F3F0E9;
+    --blue: #009CC4;
+}
+
+header {
+    height: 100vh;
+}
+
+nav {
+    height: 20vh;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img {
+    width: 147px;
+    height: 90px;
+}
+
+.bg_img {
+    background: url('./images/pexels-pixabay-372470\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.nav_list li a {
+
+    text-decoration: none;
+    color: var(--gray1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 22px;
+    letter-spacing: 0.85px;
+
+}
+
+.nav_list .homePage {
+    color: var(--blue);
+}
+
+.header_content {
+    width: 50%;
+    padding-top: 171px;
+}
+
+.header_content h1 {
+    font-weight: 400;
+    font-size: 6.2rem;
+    line-height: 74px;
+    color: var(--white) !important;
+    font-family: 'Unna', serif;
+    margin-bottom: 42px;
+    z-index: 1;
+}
+
+.header_content p {
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 59px;
+    font-family: 'PT Serif', serif;
+    color: var(--white) !important;
+    z-index: 1;
+}
+
+.bg_icon {
+    background: url('./images/V_redraw-without-bg-1\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+
+
+}
+
+.bg_color {
+    background-color: rgba(0, 0, 255, 0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 48% 100%);
+    height: 100%;
+
+
+
+}
+
+/* ====================SECTION FIRST================================= */
+.first-section {
+    max-width: 1043px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 121px;
+    margin-top: 128px;
+}
+
+.first-part {
+    min-width: 400px;
+    height: 420px;
+
+}
+
+.second-part {
+    min-width: 400px;
+    background: url('./images/photo-1519085360753-af0119f7cbe7\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.first-part h4 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 16px;
+    color: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first-part h2 {
+    font-weight: 400;
+    font-size: 5.2rem;
+    line-height: 49px;
+    font-family: 'Unna', serif;
+    margin-top: 14px;
+
+}
+
+.first-section-paragraph {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: var(--gray2);
+    font-family: 'PT Serif', serif;
+    margin-top: 38px;
+    margin-left: 42px;
+}
+
+.leftSideLine {
+    position: relative;
+    width: 100%;
+
+}
+
+.leftSideLine::before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 66px;
+    background-color: var(--blue);
+}
+
+
+.first-section button {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--blue);
+    padding: 19px 27px 18px 27px;
+    background: none;
+    border: 1px solid var(--blue);
+    outline: none;
+    cursor: pointer;
+    margin-top: 70px;
+
+}
+
+.first-section button:hover {
+    background-color: var(--gray2);
+    color: var(--white);
+}
+
+/* =====================FIRST SECTION END====================================================== */
+
+
+/* ======================SECOND SECTION======================================================== */
+
+
+.second-section {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    margin-top: 128px;
+}
+
+.second-section-card {
+    min-width: 400px;
+    background-color: var(--gray3);
+    height: 367px;
+    padding: 75px 63px 75px 67px;
+}
+
+.second-section-center-card {
+    min-width: 400px;
+    height: 367px;
+    padding: 75px 63px 75px 67px;
+}
+
+.card-header {
+    display: flex;
+    gap: 86px;
+    align-items: center;
+
+}
+
+.card-header span {
+    font-weight: 400;
+    font-size: 6.2rem;
+    line-height: 63px;
+    font-family: 'Unna', serif;
+    color: var(--blue);
+}
+
+.card-header h3 {
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 32px;
+    font-family: 'Unna', serif;
+}
+
+.second-section-card-paragraph {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: var(--gray2);
+    margin-top: 35px;
+}
+
+
+/* ===============================SECOND SECTION FINISH============================================= */
+
+/* ===================================THIRD SECTION================================================= */
+
+.third-section {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+}
+
+.third-section-left-side {
+    min-width: 600px;
+    padding: 128px;
+
+}
+
+.third-section-left-side h4 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 16px;
+    color: var(--blue);
+    letter-spacing: 1.2px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 13px;
+}
+
+.third-section-left-side h2 {
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 49px;
+    color: var(--black1);
+    font-family: 'Unna', 'sans-serif';
+    margin-bottom: 34px;
+}
+
+.third-section-left-side p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    font-family: 'PT Serif', serif;
+    color: var(--gray2);
+    margin-bottom: 50px;
+}
+
+.third-section-left-side button {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--blue);
+    background: none;
+    border: 1px solid var(--blue);
+    padding: 19px 27px 18px 27px;
+    cursor: pointer;
+    outline: none;
+}
+
+.third-section-left-side button:hover {
+    background-color: var(--gray2);
+    color: var(--white);
+}
+
+.third-section-right-side {
+    min-width: 600px;
+    padding: 128px;
+
+}
+
+.right-side-content {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    margin-bottom: 42px;
+
+}
+
+.right-side-content h4 {
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 32px;
+    font-family: 'Unna', 'sans-serif';
+    color:var(--black1)
+
+}
