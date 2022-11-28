@@ -137,6 +137,7 @@ nav ul {
   font-weight: 400;
   font-size: 1.1rem;
   line-height: 16px;
+  letter-spacing: 1.2px;
   color: var(--blue);
   font-family: "Montserrat", sans-serif;
 }
@@ -385,7 +386,7 @@ nav ul {
   background-color: var(--black2);
   height: 337px;
   padding-top: 75px;
-  padding-left: 130px;
+  padding-left: 65px;
   padding-right: 160px;
 }
 
@@ -393,6 +394,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap:30px;
 }
 
 .footer-nav ul {
