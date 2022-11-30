@@ -38,6 +38,10 @@ nav img {
   height: 90px;
 }
 
+nav i{
+  display: none !important;
+}
+
 .bg_img {
   background: url("./images/pexels-pixabay-372470\ 1.png");
   background-repeat: no-repeat;
