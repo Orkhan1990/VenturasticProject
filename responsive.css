@@ -169,6 +169,7 @@
 
     .right-side-content h4{
         font-size: 1.5rem;
+        text-align: center;
     }
 
     .right-side-content{
@@ -191,6 +192,23 @@
     .third-section-left-side{
         min-width: 320px;
     }
+    .third-section-right-side{
+        margin-left: 0 !important;
+    }
+
+    .third-section-left-side{
+        margin-left: 10px !important;
+    }
+    .first-part{
+        margin-left: 10px !important;
+    }
+
+    .second-part{
+        margin-left: 10px !important;
+        padding-right: 25px;
+
+    }
+    
 }
 
 
