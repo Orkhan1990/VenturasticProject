@@ -16,19 +16,6 @@
 }
 
 
-
-@media screen and (max-width:1080px) {
-    .first-part{
-        margin-left:50px;
-        margin-right:50px;
-    }
-
-    .second-part{
-        margin-left:50px;
-        margin-right:50px;
-    }
-}
-
 @media screen and (max-width:1046px) {
     nav ul{
         display: none;
@@ -83,4 +70,220 @@
       .second-section-card {
         min-width: 320px; 
       }
+
+      .third-section {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        padding-top:55px;
+        gap:55px;
+
+      }
+
+      .third-section-left-side {
+        min-width: 320 px;
+      }
+
+      .third-section-right-side {
+        min-width: 320px;
+      }
+
+      .footer-bottom{
+        flex-direction: column;
+        text-align: center;
+        height: 90px;
+        justify-content: center;
+      }
+
+      .second-section-card{
+        padding:50px 10px 0px 10px;
+      }
+      .second-section-center-card{
+        padding:50px 10px 0px 10px;
+      }
+
+      .card-header{
+        gap:25px;
+      }
+      .footer-top{
+        padding-left: 0px;
+      }
+      .office-location h5{
+        font-size: 1.5rem;
+      }
+
+      .fourth-section{
+        padding: 63px 63px;
+      }
+}
+
+
+
+@media screen and (max-width:320px) {
+   
+    .footer-top{
+        height: 510px;
+    }
+
+    .office-location h5{
+        font-size: 1rem;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+    }
+    .footer-bottom p{
+        font-size: 1rem;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-bottom p{
+        line-height: 15px;
+        text-align: center;
+
+    }
+    .footer-nav ul li a{
+        font-size: 1.5rem;
+    }
+
+    .fourth-section h2{
+        font-size: 2rem;
+        line-height:35px;
+    }
+
+    .fourth-section{
+        padding: 0;
+    }
+
+    .fourth-section p{
+        font-size: 1rem;
+        line-height:25px;
+        margin-bottom:25px;
+    }
+
+    .fourth-section button{
+        font-size: 1rem;
+        padding: 10px 10px;
+    }
+
+    .right-side-content h4{
+        font-size: 1.5rem;
+    }
+
+    .right-side-content{
+        gap:20px;
+        flex-direction: column;
+    }
+
+    .third-section-left-side h2{
+        font-size: 2rem;
+        margin-bottom:5px;
+    }
+
+    .third-section-left-side p{
+        font-size: 1.3rem;
+    }
+    .third-section-left-side button{
+        padding: 17px 17px;
+        font-size: 1rem;
+    }
+    .third-section-left-side{
+        min-width: 320px;
+    }
+}
+
+
+@media screen and (max-width:1080px) {
+    .bg_color{
+        clip-path: none;
+        justify-content: center;
+    }
+
+    .header_content h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .header_content p{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .first-part h2{
+        font-size: 2rem;
+    }
+
+    .first-section button{
+        margin-top: 40px;
+       padding:15px 15px ; 
+    }
+
+    .first-section-paragraph{
+        font-size: 1.2rem;
+    }
+
+    .third-section-left-side h2{
+        font-size: 2.5rem;
+    }
+
+    .third-section-left-side p{
+        font-size: 1.3rem;
+
+    }
+
+    .third-section-left-side button{
+        padding:15px 15px ; 
+    }
+
+    .fourth-section h2{
+        font-size: 2.5rem;
+    }
+
+    .fourth-section p{
+        font-size: 1.5rem;
+    }
+
+    .fourth-section button{
+        padding:15px 15px ; 
+
+    }
+
+    .right-side-content h4{
+        font-size: 2rem;
+    }
+    .first-part{
+        margin-left:50px;
+        margin-right:50px;
+    }
+
+    .second-part{
+        margin-left:50px;
+        margin-right:50px;
+    }
+
+    .third-section-left-side{
+        margin-left:50px;
+        margin-right:50px;
+    }
+    .third-section-right-side{
+        margin-left:50px;
+        margin-right:50px;
+    }
+    
+
+}
+
+@media screen and (max-width:500px) {
+
+    .fourth-section{
+        padding:63px 15px
+    }
+    .footer-nav{
+        flex-direction: column;
+    }
+
+    .footer-top{
+        height: 525px;
+    }
 }
