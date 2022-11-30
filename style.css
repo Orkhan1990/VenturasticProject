@@ -202,7 +202,7 @@ nav ul {
 /* ======================SECOND SECTION======================================================== */
 
 .second-section {
-  max-width: 1440px;
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   margin-top: 128px;
@@ -255,14 +255,16 @@ nav ul {
 /* ===================================THIRD SECTION================================================= */
 
 .third-section {
-  max-width: 1440px;
+  max-width: 1043px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  margin: auto;
+  gap:121px;
+  padding-top: 128px;
 }
 
 .third-section-left-side {
-  min-width: 600px;
-  padding: 128px;
+  min-width: 450px;
 }
 
 .third-section-left-side h4 {
@@ -312,8 +314,7 @@ nav ul {
 }
 
 .third-section-right-side {
-  min-width: 600px;
-  padding: 128px;
+  min-width: 450px;
 }
 
 .right-side-content {
@@ -478,5 +479,6 @@ nav ul {
     font-size: 1.6rem;
     line-height: 41px;
     font-family: "Unna", "sans-serif";
+    width: 100%;
 
 }

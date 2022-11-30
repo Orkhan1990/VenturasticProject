@@ -58,3 +58,29 @@
         padding-top: 40px;
     }
 }
+
+@media screen and (max-width:644px) {
+   
+    .first-section {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      }
+    .first-part {
+        min-width: 320px;
+      }
+      
+      .second-part {
+        min-width: 320px;
+      }
+
+      .second-section {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      }
+
+      .second-section-center-card {
+        min-width: 320px;
+      }
+
+      .second-section-card {
+        min-width: 320px; 
+      }
+}
